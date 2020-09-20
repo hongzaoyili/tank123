@@ -48,7 +48,6 @@ void selelct_panel_init() {
 
 /**
 	显示游戏玩家面板
-
 */
 EnumSelectResult show_select_panel() {
 	cleardevice(); // 清空之前显示的内容，避免干扰

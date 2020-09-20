@@ -83,6 +83,7 @@
     <ClInclude Include="select-panel.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="tank-common.h" />
+    <ClInclude Include="tank-enemy.h" />
     <ClInclude Include="tank-player.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
@@ -97,6 +98,7 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
     </ClCompile>
     <ClCompile Include="tank-common.cpp" />
+    <ClCompile Include="tank-enemy.cpp" />
     <ClCompile Include="tank-player.cpp" />
     <ClCompile Include="tank.cpp" />
     <ClCompile Include="tank0.3.cpp" />

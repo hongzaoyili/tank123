@@ -1,5 +1,5 @@
-﻿生成启动时间为 2020/9/19 11:11:31。
-     1>项目“c:\Users\administrator\documents\visual studio 2010\Projects\tank0.3\tank0.3\tank0.3.vcxproj”在节点 2 上(rebuild 个目标)。
+﻿生成启动时间为 2020/9/20 13:32:49。
+     1>项目“C:\Users\Administrator\Documents\GitHub\tank123\tank0.3\tank0.3.vcxproj”在节点 2 上(rebuild 个目标)。
      1>_PrepareForClean:
          正在删除文件“Debug\tank0.3.lastbuildstate”。
        InitializeBuildStatus:
@@ -7,36 +7,38 @@
        ClCompile:
          c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\tank0.3.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
          stdafx.cpp
-         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt common.cpp "game-clock.cpp" "game-control.cpp" "mci-sound.cpp" "select-panel.cpp" "tank-common.cpp" "tank-player.cpp" tank.cpp tank0.3.cpp
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt common.cpp "game-clock.cpp" "game-control.cpp" "mci-sound.cpp" "select-panel.cpp" "tank-common.cpp" "tank-enemy.cpp" "tank-player.cpp" tank.cpp tank0.3.cpp
          tank0.3.cpp
          tank.cpp
          tank-player.cpp
+         tank-enemy.cpp
          tank-common.cpp
          select-panel.cpp
          mci-sound.cpp
          game-control.cpp
          game-clock.cpp
-     1>c:\users\administrator\documents\visual studio 2010\projects\tank0.3\tank0.3\game-clock.cpp(14): warning C4244: “=”: 从“LONGLONG”转换到“double”，可能丢失数据
+     1>c:\users\administrator\documents\github\tank123\tank0.3\game-clock.cpp(14): warning C4244: “=”: 从“LONGLONG”转换到“double”，可能丢失数据
          common.cpp
          正在生成代码...
        Link:
-         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\administrator\documents\visual studio 2010\Projects\tank0.3\Debug\tank0.3.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST:NO /DEBUG /PDB:"c:\users\administrator\documents\visual studio 2010\Projects\tank0.3\Debug\tank0.3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\administrator\documents\visual studio 2010\Projects\tank0.3\Debug\tank0.3.lib" /MACHINE:X86 Debug\common.obj
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Administrator\Documents\GitHub\tank123\Debug\tank0.3.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST:NO /DEBUG /PDB:"C:\Users\Administrator\Documents\GitHub\tank123\Debug\tank0.3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Administrator\Documents\GitHub\tank123\Debug\tank0.3.lib" /MACHINE:X86 Debug\common.obj
          "Debug\game-clock.obj"
          "Debug\game-control.obj"
          "Debug\mci-sound.obj"
          "Debug\select-panel.obj"
          Debug\stdafx.obj
          "Debug\tank-common.obj"
+         "Debug\tank-enemy.obj"
          "Debug\tank-player.obj"
          Debug\tank.obj
          Debug\tank0.3.obj
      1>LINK : warning LNK4067: 不明确的入口点；选定“mainCRTStartup”
-         tank0.3.vcxproj -> c:\users\administrator\documents\visual studio 2010\Projects\tank0.3\Debug\tank0.3.exe
+         tank0.3.vcxproj -> C:\Users\Administrator\Documents\GitHub\tank123\Debug\tank0.3.exe
        FinalizeBuildStatus:
          正在删除文件“Debug\tank0.3.unsuccessfulbuild”。
          正在对“Debug\tank0.3.lastbuildstate”执行 Touch 任务。
-     1>已完成生成项目“c:\Users\administrator\documents\visual studio 2010\Projects\tank0.3\tank0.3\tank0.3.vcxproj”(rebuild 个目标)的操作。
+     1>已完成生成项目“C:\Users\Administrator\Documents\GitHub\tank123\tank0.3\tank0.3.vcxproj”(rebuild 个目标)的操作。
 
 生成成功。
 
-已用时间 00:00:03.96
+已用时间 00:00:03.66

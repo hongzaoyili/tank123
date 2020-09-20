@@ -45,6 +45,9 @@
     <ClInclude Include="tank-player.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="tank-enemy.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -75,6 +78,9 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="tank.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tank-enemy.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

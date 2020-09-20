@@ -37,6 +37,9 @@
 #define TANK_WIDTH	16 // 玩家坦克宽度
 #define TANK_HEIGHT 16 // 玩家坦克高度
 
+#define GAME_OVER_WIDTH 31
+#define GAME_OVER_HEIGHT 15
+
 #define BOX_SIZE		8		// 中间画布被划分成26*26的格子，每个格子是8像素
 #define _CLEAR		-1		// 标记障碍物被消除的格子, 用于扫描时与 0 区分开, 然后绘制黑色图片, 避免对 0 也进行多余操作
 #define _EMPTY		0		// 空地
@@ -46,3 +49,5 @@
 #define _WALL		3		// 墙
 #define _RIVER		4		// 河流
 #define _STONE		5		// 石头
+#define GAME_OVER_WIDTH 31
+#define GAME_OVER_HEIGHT 15
